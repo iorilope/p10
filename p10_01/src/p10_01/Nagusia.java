@@ -24,7 +24,10 @@ public class Nagusia {
 		// System.out.println(erabiltzailea.ErabiltzaileTaulaSortu());
 
 		System.out.println(erabiltzailea.Galdetu());
-		System.out.println(konexioa.usernameSortu());
+		System.out.println(erabiltzailea.getErabizenaString());
+		
+	
+		System.out.println(konexioa.usernameSortu(erabiltzailea));
 
 	}
 
